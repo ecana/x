@@ -1,8 +1,8 @@
-//var url = require('url');
-//var path = require('path');
-//var fs = require('fs');
-//var util= require('util');
-//var querystring = require("querystring");
+var url = require('url');
+var path = require('path');
+var fs = require('fs');
+var util= require('util');
+var querystring = require("querystring");
 //var mongoose = require('mongoose');
 var http = require('http');
 var ip = process.env.OPENSHIFT_NODEJS_IP || '127.0.0.1',
@@ -12,7 +12,7 @@ http.createServer(function (req, res) {
   res.writeHead(200, {'Content-Type': 'text/plain'});
   res.end('Hello World\n');
 }).listen(port, ip);
-console.log('Server running at http://'+ip+':'+port+'/');
+//console.log('Server running at http://'+ip+':'+port+'/');
 
 //var server_port = process.env.OPENSHIFT_NODEJS_PORT || 8080
 //var server_ip_address = process.env.OPENSHIFT_NODEJS_IP || '127.0.0.1'

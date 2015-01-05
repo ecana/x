@@ -1,8 +1,8 @@
-var url = require('url');
-var path = require('path');
-var fs = require('fs');
-var util= require('util');
-var querystring = require("querystring");
+//var url = require('url');
+//var path = require('path');
+//var fs = require('fs');
+//var util= require('util');
+//var querystring = require("querystring");
 //var mongoose = require('mongoose');
 var http = require('http');
 var ip = process.env.OPENSHIFT_NODEJS_IP || '127.0.0.1',

@@ -11,7 +11,7 @@ var ip = process.env.OPENSHIFT_NODEJS_IP || '127.0.0.1',
 
 http.createServer(function (req, res) {
   res.writeHead(200, {'Content-Type': 'text/plain'});
-  res.end('Hello Mongoose\n');
+  res.end('Hello teo\n');
 }).listen(port, ip);
 //console.log('Server running at http://'+ip+':'+port+'/');
 
